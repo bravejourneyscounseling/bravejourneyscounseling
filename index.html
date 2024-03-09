@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div
+    class="site-header-container {% if site.cover %}has-cover{% endif %}"
+    {%
+    if
+    site.cover
+    %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"
+    {%
+    endif
+    %}
+  >
+    <div class="scrim {% if site.cover %}has-cover{% endif %}">
+      <header class="site-header container">
+        <h1 class="title">
+          A place to find hope, healing, and support for your journey
+        </h1>
+        <p class="subtitle">
+          Personalized counseling for trauma, anxiety, depression and suicidal
+          thoughts
+        </p>
+        <a
+          class="button button-primary button-larger"
+          href="https://calendly.com/bravejourneyscounseling/30min"
+          >Book a Free 15-Minute Consultation</a
+        >
+      </header>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row section centered">
+      <h1>Welcome to Brave Journeys Counseling</h1>
+      <p>
+        We're here to help you find the support and guidance you need in a safe
+        and comfortable environment. Our experienced counselors specialize in a
+        variety of areas, including anxiety, depression, relationships, and
+        more.
+      </p>
+      <a class="button" href="/about">Find Out More</a>
+    </div>
+    <div class="row section circle-images">
+      <div class="one-third column centered">
+        <img src="assets/sq_showingupsign.jpg">
+        <h3>Our Philosophy</h3>
+        <p>
+          At Brave Journeys Counseling, we believe that everyone has the
+          potential to lead a fulfilling and meaningful life. Our counseling
+          services are designed to help our clients unlock their potential and
+          achieve their goals.
+        </p>
+      </div>
+      <div class="one-third column centered">
+
+        <img src="assets/sq_office.jpg">
+        <h3>Our Services</h3>
+        <p>
+          We offer individual counseling, for adults and youth 12 and up. Our
+          services are tailored to meet each of our clients' unique needs including <a href="https://www.psychologytoday.com/us/therapy-types/acceptance-and-commitment-therapy">ACT – Acceptance and Commitment Therapy</a>, <a href="https://cams-care.com/about-cams/">CAMS – The Collaborative Assessment and Management of Suicidality</a>, <a href="https://www.psychologytoday.com/us/therapy-types/eclectic-therapy">eclectic</a>, among others.
+        </p>
+      </div>
+      <div class="one-third column centered">
+
+        <img src="assets/sq_trail.jpg">
+        <h3>Our Approach</h3>
+        <p>
+          We take a collaborative approach to counseling, focusing on helping
+          clients clarify their values and the steps needed to live them out.
+          Our counselors are trained in a variety of evidence-based techniques
+          and therapies to help our clients achieve optimal mental health.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="gray-bg">
+    <div class="container">
+      <div class="row section newsletter">
+        <div class="two-thirds column">
+          <h3>
+            Sign up for our monthly newsletter for mental wellness tips and
+            practice updates.
+          </h3>
+        </div>
+        <div class="one-third column">          
+          <a
+            class="button button-primary"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSca4GJb-Ycrold16ALRajyqdQM2RK4HlNF8iUyhE23CnbdBng/viewform?usp=sf_link"
+            >Sign Up for Our Newsletter</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

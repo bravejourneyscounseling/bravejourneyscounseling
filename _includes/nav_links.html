@@ -1,0 +1,17 @@
+{% for page in site.pages %} {% if page.title and page.main_nav == true %}
+<li class="nav-link">
+  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+</li>
+{% endif %} {% endfor %}
+<li class="nav-link">
+  <a href="https://www.therapyportal.com/p/mariarolland/login/"
+    >Client Portal</a
+  >
+</li>
+<li class="nav-link">
+  <a
+    class="button button-primary"
+    href="https://calendly.com/bravejourneyscounseling/30min"
+    >Book a Free Call</a
+  >
+</li>
